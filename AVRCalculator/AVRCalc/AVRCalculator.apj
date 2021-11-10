@@ -1,0 +1,124 @@
+AtmanAvr Project File, Format Version 5.00
+# WARNING: DO NOT EDIT OR DELETE THIS PROJECT FILE!
+
+NAME="AVRCalculator"
+TARGTYPE=0x0101 "Application"
+MACHINE="ATmega32"
+CLOCKFREQ="8.0000 MHz"
+EXTRAM="0"
+CFG=0 "AVRCalculator - Debug"
+
+# Begin Project
+# Begin CFG 0
+
+CFGNAME="AVRCalculator - Debug"
+INTERMEDIATEDIR=".\Debug"
+OUTPUTDIR=".\Debug"
+PREDEFMACROS="_DEBUG"
+ADDITIONALINCDIR=""
+OPTIMIZATIONS="1"
+LIBVERSION="0"
+WARNINGASERROR="0"
+USEEXTMAKEFILE="0"
+ADDITIONALOPTIONS=""
+ADDITIONALLIB=""
+ADDITIONALLIBDIR=""
+OUTPUTFORMAT="3"
+PRINTFVERSION="0"
+STACKSECTION="0"
+DATASECTION="0"
+BOOTSECTION="0"
+GENERATEMAPFILE="0"
+DISASSEMBLY="0"
+REPORTCODESIZE="1"
+BOOTRESET="0"
+EXTERNALMEMORY="0"
+
+# End CFG 0
+# Begin CFG 1
+
+CFGNAME="AVRCalculator - Release"
+INTERMEDIATEDIR=".\Release"
+OUTPUTDIR=".\Release"
+PREDEFMACROS="NDEBUG"
+ADDITIONALINCDIR=""
+OPTIMIZATIONS="3"
+LIBVERSION="0"
+WARNINGASERROR="0"
+USEEXTMAKEFILE="0"
+ADDITIONALOPTIONS=""
+ADDITIONALLIB=""
+ADDITIONALLIBDIR=""
+OUTPUTFORMAT="3"
+PRINTFVERSION="1"
+STACKSECTION="0"
+DATASECTION="0"
+BOOTSECTION="0"
+GENERATEMAPFILE="0"
+DISASSEMBLY="0"
+REPORTCODESIZE="1"
+BOOTRESET="0"
+EXTERNALMEMORY="0"
+
+# End CFG 1
+
+# Begin Target
+
+# Begin Group "Source Files"
+
+DEFAULTFILTER="c;cpp;cxx;s"
+# Begin Source File
+
+SOURCE=.\AVRCalculatorTimer.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\lcdmore.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\parser.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\keybrd.c
+# End Source File
+# Begin Source File
+
+SOURCE=.\AVRCalculator.c
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+DEFAULTFILTER="h;hpp;hxx;inl"
+# Begin Source File
+
+SOURCE=.\AVRCalculatorTimer.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\lcdmore.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\types.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\parser.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\keybrd.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\AVRCalculator.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\Version.v
+# End Source File
+# End Target
+# End Project

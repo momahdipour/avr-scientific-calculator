@@ -1,0 +1,1 @@
+avrdude -P lpt1 -c stk200 -p $(MCU) -U flash:w:$(TargetName).hex:i -U flash:v:$(TargetName).hex:i
