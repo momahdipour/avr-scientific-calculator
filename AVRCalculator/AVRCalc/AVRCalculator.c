@@ -10,7 +10,7 @@ Compiler:
 
 
 		By:
-		    M. Mehdipour (mo.mehdipour@gmail.com)
+		    Mohammad Mahdipour (mo.mahdipour@gmail.com)
 }}*/
 //**************************************************************************
 
